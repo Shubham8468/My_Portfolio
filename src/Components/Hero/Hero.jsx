@@ -14,7 +14,7 @@ const Hero = () => {
       <p> a frontend developer with a keen eye for design and detail. I love creating responsive and dynamic websites that combine functionality with creativity. My goal is to build digital experiences that are fast, accessible, and visually appealing.</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'> Connect with me</AnchorLink> </div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume"><AnchorLink className='anchor-link' offset={50} href='#MyResume'>My resume</AnchorLink></div>
       </div>
     </div>
   )

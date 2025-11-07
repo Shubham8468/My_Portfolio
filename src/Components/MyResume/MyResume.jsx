@@ -4,7 +4,7 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import resume from '../../assets/Resume.jpg'
 function MyResume() {
     return (
-        <div className="my-resume">
+        <div id="MyResume" className="my-resume">
             <div className="my-resume-title">
                 <h1>
                     My Resume
