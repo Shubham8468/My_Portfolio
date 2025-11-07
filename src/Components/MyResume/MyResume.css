@@ -1,0 +1,58 @@
+.my-resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+
+}
+.my-resume-title{
+    position: relative;
+
+}
+.my-resume-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-family: 600;
+}
+.my-resume-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.my-resume-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+     ;
+    padding: 0px 0px;
+    margin: 10px 150px;
+    width: 400px;
+    border-radius: 10px;
+}
+.my-resume-container img{
+  box-sizing: border-box;
+  width: 100%;
+
+  height: auto;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid rgb(243, 228, 228);
+  transition: 0.7s;
+  transform: scale(1.0);
+  box-shadow: 0 0 10px 3px #B415FF
+}
+.my-resume-container img:hover{
+    transform: scale(1.05); 
+     /* it will be increase the size */
+     border: 1px solid #DF8908;
+     border-radius: 10px;
+     transition: 0.8s;
+     transform: scale(1.7);
+     
+}
