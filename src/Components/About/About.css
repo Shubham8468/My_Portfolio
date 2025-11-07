@@ -122,59 +122,72 @@
     transform: scale(1.2);
     transition: 0.8s;
 }
-@media(max-width:768px){
-    .about{
+
+@media(max-width:768px) {
+    .about {
         gap: 80px;
         margin: 50px 70px;
         align-items: start;
     }
-    .about-titel h1{
-     font-size: 50px;
-     padding: 0;
+
+    .about-titel h1 {
+        font-size: 50px;
+        padding: 0;
     }
-    .about-titel img{
+
+    .about-titel img {
         width: 130px;
         right: -20px;
     }
-    .about-sections{
+
+    .about-sections {
         flex-direction: column;
     }
-    .about-left{
+
+    .about-left {
         display: none;
     }
-    .about-para{
+
+    .about-para {
         font-size: 18px;
         line-height: 32px;
     }
-    .about-skill{
+
+    .about-skill {
         gap: 20px;
         align-items: center;
 
     }
-    .about-skill p{
+
+    .about-skill p {
         font-size: 12px;
     }
-    .about-skill hr{
+
+    .about-skill hr {
         height: 6px;
     }
-    .about-achivements{
+
+    .about-achivements {
         justify-content: space-between;
     }
-    .about-achivement{
+
+    .about-achivement {
         gap: 20px;
     }
-    .about-achivement h1{
-        font-size:34px ;
+
+    .about-achivement h1 {
+        font-size: 34px;
         font-weight: 700;
     }
-    .about-achivement p{
+
+    .about-achivement p {
         font-size: 12px;
 
     }
-    .about-achivement hr{
+
+    .about-achivement hr {
         gap: 20px;
     }
-    
+
 
 }
-

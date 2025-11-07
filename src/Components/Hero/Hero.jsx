@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="shubh_img">
         <img src={profile_img} alt="" />
       </div >
-      <h1><span> Hey there!</span>
-        I’m Shubham.
+      <h1><span> I’m Shubham.</span>
+        
       </h1>
       <p> a frontend developer with a keen eye for design and detail. I love creating responsive and dynamic websites that combine functionality with creativity. My goal is to build digital experiences that are fast, accessible, and visually appealing.</p>
       <div className="hero-action">

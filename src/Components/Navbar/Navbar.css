@@ -88,3 +88,20 @@
     }
 
 }
+.logo-name{
+    position: relative;
+}
+
+.logo-name h1{
+    font-size: 30px;
+    padding: 0%;
+    display: inline;
+    margin-left: 10px;
+}
+.logo-name img{
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+}
